@@ -84,7 +84,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaClip: 0
-    - _ApplyCull: 0
+    - _ApplyCull: 1
     - _ApplyGradient: 1
     - _Blend: 0
     - _BumpScale: 1
@@ -109,7 +109,7 @@ Material:
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _SpriteScale: 1
+    - _SpriteScale: 0.5
     - _SrcBlend: 1
     - _Surface: 0
     - _WorkflowMode: 1
