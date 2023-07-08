@@ -22,12 +22,16 @@
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Crumple" ID="{B0401A48-D85E-42A5-BF93-BF47D4229C63}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}"/>
-							<Position X="2" Y="0"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Play_Light_Damage" ID="{C5B39333-8246-41E4-B06F-05042616431E}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}"/>
 							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Dialogue" ID="{620A7F92-7C80-4D6C-91D7-33FE38D66C3B}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Dialogue" ID="{5845FA77-04B8-45A8-B538-888F89F16CC1}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}"/>
+							<Position X="3" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>

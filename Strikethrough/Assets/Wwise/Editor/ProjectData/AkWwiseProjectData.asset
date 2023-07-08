@@ -38,8 +38,25 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 347dc777309cbf4d9e377b5881a1f3b4
     GuidInternal: 
-    m_lastTime: -8585128196377423446
+    m_lastTime: -8585127514821399885
     List:
+    - name: Amb
+      guid: 193ddb70111b6c438af079a82eb69394
+      id: 1117531639
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 347dc777309cbf4d9e377b5881a1f3b4
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Amb
+        ObjectType: 2
+        guid: 193ddb70111b6c438af079a82eb69394
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Amb
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -71,6 +88,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: 224e58fdd12b3740b9891e9cf37c0dd1
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music
+    - name: Reverb
+      guid: 20153c5c25ee3b43bd7d0e04bf9fb3b4
+      id: 348963605
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 347dc777309cbf4d9e377b5881a1f3b4
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverb
+        ObjectType: 1
+        guid: 20153c5c25ee3b43bd7d0e04bf9fb3b4
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb
     - name: SFX
       guid: 4d6fae546fd39c47826af26ee92b29cc
       id: 393239870
@@ -100,7 +134,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: d39b9f3bf5a68049906367825269afa6
     GuidInternal: 
-    m_lastTime: -8585127586682827080
+    m_lastTime: -8585127545954421376
     List:
     - name: Strikethrough
       guid: 8ada5eea9eb20945b92b29ec30d6ffbe
@@ -128,7 +162,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 7e68f98977739945b5461a0750290736
     GuidInternal: 
-    m_lastTime: -8585127588957158767
+    m_lastTime: -8585127514821679423
     List:
     - name: Amb
       guid: bb2d6ea2b39c4e4e9ec6d85baa27e42a
@@ -144,6 +178,26 @@ MonoBehaviour:
         ObjectType: 4
         guid: bb2d6ea2b39c4e4e9ec6d85baa27e42a
       Path: Events\Default Work Unit\Amb
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Detective
+      guid: 80ec0c2dde06094b88382efb419637fe
+      id: 1033106794
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7e68f98977739945b5461a0750290736
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 1850e42f358c8b41b2a1785bc6d51082
+      - ElementName: Detective
+        ObjectType: 4
+        guid: 80ec0c2dde06094b88382efb419637fe
+      Path: Events\Default Work Unit\SFX\Detective
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -204,26 +258,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_Crumple
-      guid: 481a40b05ed8a542bf93bf47d4229c63
-      id: 3663206200
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 7e68f98977739945b5461a0750290736
-      - ElementName: SFX
-        ObjectType: 4
-        guid: 1850e42f358c8b41b2a1785bc6d51082
-      - ElementName: Play_Crumple
-        ObjectType: 3
-        guid: 481a40b05ed8a542bf93bf47d4229c63
-      Path: Events\Default Work Unit\SFX\Play_Crumple
-      maxAttenuation: 0
-      maxDuration: 0.683795
-      minDuration: 0.609192
     - name: Play_Dialogue
       guid: 927f0a62807c6c4d91d733fe38d66c3b
       id: 267911644
@@ -247,6 +281,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Flashlight_Out
+      guid: 9e91e268842ff4429b9a3bc8babd0cb2
+      id: 4044179397
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7e68f98977739945b5461a0750290736
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 1850e42f358c8b41b2a1785bc6d51082
+      - ElementName: Detective
+        ObjectType: 4
+        guid: 80ec0c2dde06094b88382efb419637fe
+      - ElementName: Play_Flashlight_Out
+        ObjectType: 3
+        guid: 9e91e268842ff4429b9a3bc8babd0cb2
+      Path: Events\Default Work Unit\SFX\Detective\Play_Flashlight_Out
+      maxAttenuation: 15
+      maxDuration: 7.652916
+      minDuration: 7.636232
     - name: Play_Light_Damage
       guid: 3393b3c54682e441b06f05042616431e
       id: 143288634
@@ -264,7 +321,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 3393b3c54682e441b06f05042616431e
       Path: Events\Default Work Unit\SFX\Play_Light_Damage
-      maxAttenuation: 5
+      maxAttenuation: 8
       maxDuration: -1
       minDuration: -1
     - name: Play_Music
@@ -304,7 +361,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 9dc7354af8a6854b8229c7e9db65c2c1
       Path: Events\Default Work Unit\SFX\Play_Pen_Click
-      maxAttenuation: 0
+      maxAttenuation: 15
       maxDuration: 0.152916
       minDuration: 0.136233
     - name: SFX
@@ -365,8 +422,8 @@ MonoBehaviour:
         guid: 77fa4558b804a845b538888f89f16cc1
       Path: Events\Default Work Unit\SFX\Dialogue\Stop_Dialogue
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 1.224456
+      minDuration: 1.145417
     - name: Stop_Music
       guid: 003bb13f599a9a4dad6ea4668402fa8f
       id: 2837384057
@@ -510,7 +567,7 @@ MonoBehaviour:
     m_lastTime: -8585128205918588421
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0600000007000000090000000a0000001c0000001f000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
