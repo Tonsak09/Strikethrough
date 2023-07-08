@@ -68,23 +68,15 @@
 				</Folder>
 				<Folder Name="SFX" ID="{2FE45018-8C35-418B-B2A1-785BC6D51082}" ShortID="791931843">
 					<ChildrenList>
-						<Event Name="Play_Crumple" ID="{B0401A48-D85E-42A5-BF93-BF47D4229C63}">
-							<ChildrenList>
-								<Action Name="" ID="{90FB7936-3991-4B1D-8511-768ECBBEEE76}" ShortID="642794083">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Paper_Crumple" ID="{52604879-D4FA-4BB0-9C1F-CFE307A0E471}" WorkUnitID="{40CD415B-5A02-45ED-8E94-12973DC945E9}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="Play_Light_Damage" ID="{C5B39333-8246-41E4-B06F-05042616431E}">
 							<ChildrenList>
 								<Action Name="" ID="{8C424798-2E61-4DB8-8192-66E371B53D83}" ShortID="732806248">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Light_Damage" ID="{2F475D0A-812D-4930-A3D8-2E2A76C7A23C}" WorkUnitID="{40CD415B-5A02-45ED-8E94-12973DC945E9}"/>
+											<ObjectRef Name="Light_Damage" ID="{2F475D0A-812D-4930-A3D8-2E2A76C7A23C}" WorkUnitID="{8D2F1CDC-8D55-46B7-86FB-749EB032C04F}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -116,10 +108,17 @@
 								</Event>
 								<Event Name="Stop_Dialogue" ID="{5845FA77-04B8-45A8-B538-888F89F16CC1}">
 									<ChildrenList>
+										<Action Name="" ID="{653E2819-5C4E-484F-A1BD-DE245454B0AE}" ShortID="687784055">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Paper_Crumple" ID="{52604879-D4FA-4BB0-9C1F-CFE307A0E471}" WorkUnitID="{40CD415B-5A02-45ED-8E94-12973DC945E9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 										<Action Name="" ID="{A54115A6-DEAA-4550-90F3-5B46D14429F0}" ShortID="154605407">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="2"/>
-												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
@@ -142,6 +141,52 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Folder Name="Detective" ID="{2D0CEC80-06DE-4B09-8838-2EFB419637FE}" ShortID="252300517">
+							<ChildrenList>
+								<Event Name="Play_Flashlight_Out" ID="{68E2919E-2F84-42F4-9B9A-3BC8BABD0CB2}">
+									<ChildrenList>
+										<Action Name="" ID="{75ECB312-36B7-4AB7-9800-9994BB7363C8}" ShortID="637475730">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Flashlight_Out_1" ID="{D255D72B-A1E9-47F4-BAFF-709094895785}" WorkUnitID="{40CD415B-5A02-45ED-8E94-12973DC945E9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{2760B593-3495-4326-828B-6B73906CE651}" ShortID="114878018">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="1"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Flashlight_Shake_1" ID="{15EC2001-BEF5-48B6-831E-75425D1AC639}" WorkUnitID="{40CD415B-5A02-45ED-8E94-12973DC945E9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{B2CEE098-C073-43EA-90E9-1D582F103F7D}" ShortID="757575188">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="7"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Pen_Click" ID="{1B435FF9-196E-465A-A713-9C8CD3831766}" WorkUnitID="{40CD415B-5A02-45ED-8E94-12973DC945E9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{A9067DD7-C6C8-42B1-A8DE-413F3F8A211A}" ShortID="984137951">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="7.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Pen_Click" ID="{1B435FF9-196E-465A-A713-9C8CD3831766}" WorkUnitID="{40CD415B-5A02-45ED-8E94-12973DC945E9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
