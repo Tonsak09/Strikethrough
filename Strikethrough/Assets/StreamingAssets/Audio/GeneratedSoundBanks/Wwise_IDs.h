@@ -14,8 +14,8 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_AMB = 2959533290U;
-        static const AkUniqueID PLAY_CRUMPLE = 3663206200U;
         static const AkUniqueID PLAY_DIALOGUE = 267911644U;
+        static const AkUniqueID PLAY_FLASHLIGHT_OUT = 4044179397U;
         static const AkUniqueID PLAY_LIGHT_DAMAGE = 143288634U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PLAY_PEN_CLICK = 2938762846U;
