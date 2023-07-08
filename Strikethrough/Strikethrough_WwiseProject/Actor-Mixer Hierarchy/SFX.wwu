@@ -32,11 +32,6 @@
 														<Value>1</Value>
 													</ValueList>
 												</Property>
-												<Property Name="UseMaxSoundPerInstance" Type="bool">
-													<ValueList>
-														<Value>True</Value>
-													</ValueList>
-												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -154,6 +149,11 @@
 												<Sound Name="Pencil Writing" ID="{BC7151D5-D0D9-4DA5-B047-998F8207AE26}" ShortID="122135695">
 													<PropertyList>
 														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="MaxSoundPerInstance" Type="int16">
+															<ValueList>
+																<Value>1</Value>
+															</ValueList>
+														</Property>
 														<Property Name="Pitch" Type="int32">
 															<ValueList>
 																<Value>80</Value>
@@ -168,6 +168,11 @@
 																	</Modifier>
 																</ModifierInfo>
 															</ModifierList>
+														</Property>
+														<Property Name="UseMaxSoundPerInstance" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
 														</Property>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>

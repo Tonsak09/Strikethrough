@@ -108,6 +108,13 @@
 								</Event>
 								<Event Name="Stop_Dialogue" ID="{5845FA77-04B8-45A8-B538-888F89F16CC1}">
 									<ChildrenList>
+										<Action Name="" ID="{653E2819-5C4E-484F-A1BD-DE245454B0AE}" ShortID="687784055">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Paper_Crumple" ID="{52604879-D4FA-4BB0-9C1F-CFE307A0E471}" WorkUnitID="{40CD415B-5A02-45ED-8E94-12973DC945E9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 										<Action Name="" ID="{A54115A6-DEAA-4550-90F3-5B46D14429F0}" ShortID="154605407">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="2"/>
@@ -116,16 +123,6 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Pencil Writing" ID="{BC7151D5-D0D9-4DA5-B047-998F8207AE26}" WorkUnitID="{40CD415B-5A02-45ED-8E94-12973DC945E9}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-										<Action Name="" ID="{653E2819-5C4E-484F-A1BD-DE245454B0AE}" ShortID="687784055">
-											<PropertyList>
-												<Property Name="Delay" Type="Real64" Value="0.5"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Paper_Crumple" ID="{52604879-D4FA-4BB0-9C1F-CFE307A0E471}" WorkUnitID="{40CD415B-5A02-45ED-8E94-12973DC945E9}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

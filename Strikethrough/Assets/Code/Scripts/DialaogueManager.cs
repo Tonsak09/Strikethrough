@@ -9,6 +9,8 @@ public class DialaogueManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI textMesh;
     [SerializeField] KeyCode continueKey;
 
+    [SerializeField] AK.Wwise.Event myEvent = null;
+
     private List<string> dialogueList;
     private bool inUse;
 
@@ -34,6 +36,7 @@ public class DialaogueManager : MonoBehaviour
             if(index >= dialogueList.Count)
             {
                 TurnOff();
+                myEvent.Post(this.gameObject);
             }
         }
     }
