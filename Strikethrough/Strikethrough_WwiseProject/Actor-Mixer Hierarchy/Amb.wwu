@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8D2F1CDC-8D55-46B7-86FB-749EB032C04F}" SchemaVersion="103" RootDocumentID="{2B638A63-A6FF-4481-A814-7A5BBEA4EA42}" ParentDocumentID="{2B638A63-A6FF-4481-A814-7A5BBEA4EA42}">
+	<AudioObjects>
+		<WorkUnit Name="Amb" ID="{8D2F1CDC-8D55-46B7-86FB-749EB032C04F}" OwnerID="{2B638A63-A6FF-4481-A814-7A5BBEA4EA42}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="Ambiences" ID="{66E61F4C-E631-4EA4-8A85-4AC408764CD6}" ShortID="964512080">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E14487C9-254D-4E3C-AC50-1B8CAB665C4F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{77C77D34-9C30-4DBF-9E37-7B5881A1F3B4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="City Amb" ID="{D38AAC2D-5322-41B2-8A96-4828B1D68C57}" ShortID="880581989">
+							<PropertyList>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E14487C9-254D-4E3C-AC50-1B8CAB665C4F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{77C77D34-9C30-4DBF-9E37-7B5881A1F3B4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_City_Amb" ID="{9FA06FD0-DCB3-4DB0-B394-D2F851CFE791}" ShortID="443830124">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E14487C9-254D-4E3C-AC50-1B8CAB665C4F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{77C77D34-9C30-4DBF-9E37-7B5881A1F3B4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_City_Amb" ID="{D95AD928-D15B-4F2F-A328-1340B21BF632}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="1440"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.4"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.5"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.981333333333333"/>
+												<Property Name="LoopEnd" Type="Real64" Value="26.9653333333333"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Amb\SFX_City_Amb.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="308889657"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_City_Amb" ID="{D95AD928-D15B-4F2F-A328-1340B21BF632}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+							<Playlist>
+								<ItemRef Name="SFX_City_Amb" ID="{9FA06FD0-DCB3-4DB0-B394-D2F851CFE791}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2B638A63-A6FF-4481-A814-7A5BBEA4EA42}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{2B638A63-A6FF-4481-A814-7A5BBEA4EA42}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Amb" ID="{8D2F1CDC-8D55-46B7-86FB-749EB032C04F}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

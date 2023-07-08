@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{89F9687E-7377-4599-B546-1A0750290736}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{89F9687E-7377-4599-B546-1A0750290736}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Music" ID="{C260AC5B-F80E-4A6F-83ED-130C14A5474C}">
+					<ChildrenList>
+						<Action Name="" ID="{59E31844-E701-4973-B0F3-7C8EEA646939}" ShortID="558939053">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="City Music" ID="{D4433B0E-8844-4A2C-BA5B-B8788F0B19D3}" WorkUnitID="{1B5EE7F7-B673-4711-9CF8-5A6C7DF8D9F9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Music" ID="{3FB13B00-9A59-4D9A-AD6E-A4668402FA8F}">
+					<ChildrenList>
+						<Action Name="" ID="{0C5DB87A-F0BC-4F5B-9A56-596D9B972E4F}" ShortID="548669823">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="City Music" ID="{D4433B0E-8844-4A2C-BA5B-B8788F0B19D3}" WorkUnitID="{1B5EE7F7-B673-4711-9CF8-5A6C7DF8D9F9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Amb" ID="{D3C0462A-CE12-4BFB-8500-FAF9E487920B}">
+					<ChildrenList>
+						<Action Name="" ID="{4E61BE0B-4940-4E66-8527-E238A7C33C4C}" ShortID="362953906">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="City Amb" ID="{D38AAC2D-5322-41B2-8A96-4828B1D68C57}" WorkUnitID="{8D2F1CDC-8D55-46B7-86FB-749EB032C04F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Amb" ID="{67F8F6A9-E543-44D4-B541-5707E24AC9C3}">
+					<ChildrenList>
+						<Action Name="" ID="{E00A366E-9DCF-4086-809A-80A687D79155}" ShortID="1017068863">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="City Amb" ID="{D38AAC2D-5322-41B2-8A96-4828B1D68C57}" WorkUnitID="{8D2F1CDC-8D55-46B7-86FB-749EB032C04F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
