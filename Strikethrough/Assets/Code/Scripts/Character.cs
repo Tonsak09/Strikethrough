@@ -44,6 +44,7 @@ public class Character : MonoBehaviour
             if(Input.GetKeyDown(interactKey) && inZone)
             {
                 inDialogue = true;
+                myEvent.Post(this.gameObject);
             }
         }
         else
