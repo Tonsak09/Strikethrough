@@ -1,8 +1,11 @@
 Event	ID	Name			Wwise Object Path	Notes
 	143288634	Play_Light_Damage			\Default Work Unit\SFX\Play_Light_Damage	
+	267911644	Play_Dialogue			\Default Work Unit\SFX\Dialogue\Play_Dialogue	
+	288905442	Stop_Dialogue			\Default Work Unit\SFX\Dialogue\Stop_Dialogue	
 	435770000	Stop_Amb			\Default Work Unit\Amb\Stop_Amb	
 	2837384057	Stop_Music			\Default Work Unit\Music\Stop_Music	
 	2932040671	Play_Music			\Default Work Unit\Music\Play_Music	
+	2938762846	Play_Pen_Click			\Default Work Unit\SFX\Play_Pen_Click	
 	2959533290	Play_Amb			\Default Work Unit\Amb\Play_Amb	
 	3663206200	Play_Crumple			\Default Work Unit\SFX\Play_Crumple	
 
@@ -16,8 +19,11 @@ State	ID	Name	State Group			Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	308889657	SFX_City_Amb	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Mac\SFX\Amb\SFX_City_Amb_1C5147B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\Ambiences\City Amb\SFX_City_Amb		620162
-	686171758	Paper_Crumple	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Mac\SFX\Sounds\Paper_Crumple_1_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\City\Paper_Crumple		11563
+	378301566	Page_Fold	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Mac\SFX\Sounds\Page_Fold_4_4AD49589.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\City\Interactables\Dialogue\Page_Fold		12136
+	632126096	Pen_Click	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Mac\SFX\Sounds\Pen_Click_1_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\City\Interactables\Pen_Click		2709
+	686171758	Paper_Crumple	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Mac\SFX\Sounds\Paper_Crumple_1_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\City\Interactables\Paper_Crumple		11563
 	703741986	Music_City_P1	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Mac\SFX\Music\Music_City_P1_179463A7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music System\City Music\Part 1\Music_City_P1		1390812
+	878435454	Pencil Writing	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Mac\SFX\Sounds\Pencil_Writing_1_179463A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\City\Interactables\Dialogue\Pencil Writing		187379
 	974325654	Music_City_P2	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Mac\SFX\Music\Music_City_P2_179463A7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music System\City Music\Part 2\Music_City_P2		1387552
 	1008457641	Light_Damage	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Mac\SFX\Sounds\Damage_Light_1_179463A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\City\Light_Damage		238421
 

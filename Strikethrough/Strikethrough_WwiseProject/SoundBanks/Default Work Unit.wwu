@@ -8,8 +8,11 @@
 						<ObjectRef Name="Play_Light_Damage" ID="{C5B39333-8246-41E4-B06F-05042616431E}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Crumple" ID="{B0401A48-D85E-42A5-BF93-BF47D4229C63}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Amb" ID="{67F8F6A9-E543-44D4-B541-5707E24AC9C3}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Dialogue" ID="{5845FA77-04B8-45A8-B538-888F89F16CC1}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Music" ID="{C260AC5B-F80E-4A6F-83ED-130C14A5474C}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Pen_Click" ID="{4A35C79D-A6F8-4B85-8229-C7E9DB65C2C1}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Amb" ID="{D3C0462A-CE12-4BFB-8500-FAF9E487920B}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Dialogue" ID="{620A7F92-7C80-4D6C-91D7-33FE38D66C3B}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Music" ID="{3FB13B00-9A59-4D9A-AD6E-A4668402FA8F}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

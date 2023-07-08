@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 947fce752d9c3642be77c9db25ae431f
     GuidInternal: 
-    m_lastTime: -8585127774555303041
+    m_lastTime: -8585128205918232862
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 347dc777309cbf4d9e377b5881a1f3b4
     GuidInternal: 
-    m_lastTime: -8585127774559140607
+    m_lastTime: -8585128196377423446
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -100,7 +100,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: d39b9f3bf5a68049906367825269afa6
     GuidInternal: 
-    m_lastTime: -8585127701814172312
+    m_lastTime: -8585127586682827080
     List:
     - name: Strikethrough
       guid: 8ada5eea9eb20945b92b29ec30d6ffbe
@@ -128,7 +128,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 7e68f98977739945b5461a0750290736
     GuidInternal: 
-    m_lastTime: -8585127701814874161
+    m_lastTime: -8585127588957158767
     List:
     - name: Amb
       guid: bb2d6ea2b39c4e4e9ec6d85baa27e42a
@@ -144,6 +144,26 @@ MonoBehaviour:
         ObjectType: 4
         guid: bb2d6ea2b39c4e4e9ec6d85baa27e42a
       Path: Events\Default Work Unit\Amb
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Dialogue
+      guid: 8e45c034b7dd3046a9fb0b5f27c7baee
+      id: 3930136735
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7e68f98977739945b5461a0750290736
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 1850e42f358c8b41b2a1785bc6d51082
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: 8e45c034b7dd3046a9fb0b5f27c7baee
+      Path: Events\Default Work Unit\SFX\Dialogue
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -202,8 +222,31 @@ MonoBehaviour:
         guid: 481a40b05ed8a542bf93bf47d4229c63
       Path: Events\Default Work Unit\SFX\Play_Crumple
       maxAttenuation: 0
-      maxDuration: 0.724456
-      minDuration: 0.575001
+      maxDuration: 0.683795
+      minDuration: 0.609192
+    - name: Play_Dialogue
+      guid: 927f0a62807c6c4d91d733fe38d66c3b
+      id: 267911644
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7e68f98977739945b5461a0750290736
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 1850e42f358c8b41b2a1785bc6d51082
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: 8e45c034b7dd3046a9fb0b5f27c7baee
+      - ElementName: Play_Dialogue
+        ObjectType: 3
+        guid: 927f0a62807c6c4d91d733fe38d66c3b
+      Path: Events\Default Work Unit\SFX\Dialogue\Play_Dialogue
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Light_Damage
       guid: 3393b3c54682e441b06f05042616431e
       id: 143288634
@@ -221,7 +264,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 3393b3c54682e441b06f05042616431e
       Path: Events\Default Work Unit\SFX\Play_Light_Damage
-      maxAttenuation: 10
+      maxAttenuation: 8
       maxDuration: -1
       minDuration: -1
     - name: Play_Music
@@ -244,6 +287,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Pen_Click
+      guid: 9dc7354af8a6854b8229c7e9db65c2c1
+      id: 2938762846
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7e68f98977739945b5461a0750290736
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 1850e42f358c8b41b2a1785bc6d51082
+      - ElementName: Play_Pen_Click
+        ObjectType: 3
+        guid: 9dc7354af8a6854b8229c7e9db65c2c1
+      Path: Events\Default Work Unit\SFX\Play_Pen_Click
+      maxAttenuation: 0
+      maxDuration: 0.152916
+      minDuration: 0.136233
     - name: SFX
       guid: 1850e42f358c8b41b2a1785bc6d51082
       id: 393239870
@@ -281,6 +344,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Stop_Dialogue
+      guid: 77fa4558b804a845b538888f89f16cc1
+      id: 288905442
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7e68f98977739945b5461a0750290736
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 1850e42f358c8b41b2a1785bc6d51082
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: 8e45c034b7dd3046a9fb0b5f27c7baee
+      - ElementName: Stop_Dialogue
+        ObjectType: 3
+        guid: 77fa4558b804a845b538888f89f16cc1
+      Path: Events\Default Work Unit\SFX\Dialogue\Stop_Dialogue
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Stop_Music
       guid: 003bb13f599a9a4dad6ea4668402fa8f
       id: 2837384057
@@ -313,7 +399,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: f596b06642669347a8d5b259039162c3
     GuidInternal: 
-    m_lastTime: -8585127774559409313
+    m_lastTime: -8585128205919109857
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -327,7 +413,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 488972cbc10a334289db2923af382aee
     GuidInternal: 
-    m_lastTime: -8585127774555321173
+    m_lastTime: -8585128152344043947
     List:
     - name: Env
       guid: 26b08d4b05c9564f88402b425c1dd916
@@ -407,7 +493,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: f589b8c07aa0db4499f009c28291496a
     GuidInternal: 
-    m_lastTime: -8585127774555303041
+    m_lastTime: -8585128205918458906
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -421,7 +507,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 6b9adb872146b140bd79664b4e8eb7be
     GuidInternal: 
-    m_lastTime: -8585127774555303041
+    m_lastTime: -8585128205918588421
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 
