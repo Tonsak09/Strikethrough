@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d920df793c34e2d4aab5e4b861b5e762, type: 3}
+  m_Name: B0401A48-D85E-42A5-BF93-BF47D4229C63
+  m_EditorClassIdentifier: 
+  objectName: Play_Crumple
+  id: 3663206200
+  guid: B0401A48-D85E-42A5-BF93-BF47D4229C63

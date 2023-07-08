@@ -2473,6 +2473,11 @@ MonoBehaviour:
   dialogue:
   - It's been a long time
   - Here to get rid of old mistakes?
+  myEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 0f0c6e4da2535e34d9188117a00f320c,
+      type: 2}
 --- !u!136 &1791008975
 CapsuleCollider:
   m_ObjectHideFlags: 0
