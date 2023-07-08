@@ -100,7 +100,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: d39b9f3bf5a68049906367825269afa6
     GuidInternal: 
-    m_lastTime: -8585128181554500576
+    m_lastTime: -8585127725004432241
     List:
     - name: Strikethrough
       guid: 8ada5eea9eb20945b92b29ec30d6ffbe
@@ -128,8 +128,42 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 7e68f98977739945b5461a0750290736
     GuidInternal: 
-    m_lastTime: -8585128148784606181
+    m_lastTime: -8585127724459333071
     List:
+    - name: Amb
+      guid: bb2d6ea2b39c4e4e9ec6d85baa27e42a
+      id: 1117531639
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7e68f98977739945b5461a0750290736
+      - ElementName: Amb
+        ObjectType: 4
+        guid: bb2d6ea2b39c4e4e9ec6d85baa27e42a
+      Path: Events\Default Work Unit\Amb
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Music
+      guid: 43630e308fa50e438de46a9fd1aac8b3
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7e68f98977739945b5461a0750290736
+      - ElementName: Music
+        ObjectType: 4
+        guid: 43630e308fa50e438de46a9fd1aac8b3
+      Path: Events\Default Work Unit\Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Amb
       guid: 2a46c0d312cefb4b8500faf9e487920b
       id: 2959533290
@@ -140,11 +174,54 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 7e68f98977739945b5461a0750290736
+      - ElementName: Amb
+        ObjectType: 4
+        guid: bb2d6ea2b39c4e4e9ec6d85baa27e42a
       - ElementName: Play_Amb
         ObjectType: 3
         guid: 2a46c0d312cefb4b8500faf9e487920b
-      Path: Events\Default Work Unit\Play_Amb
+      Path: Events\Default Work Unit\Amb\Play_Amb
       maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Crumple
+      guid: 481a40b05ed8a542bf93bf47d4229c63
+      id: 3663206200
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7e68f98977739945b5461a0750290736
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 1850e42f358c8b41b2a1785bc6d51082
+      - ElementName: Play_Crumple
+        ObjectType: 3
+        guid: 481a40b05ed8a542bf93bf47d4229c63
+      Path: Events\Default Work Unit\SFX\Play_Crumple
+      maxAttenuation: 0
+      maxDuration: 0.724456
+      minDuration: 0.575001
+    - name: Play_Light_Damage
+      guid: 3393b3c54682e441b06f05042616431e
+      id: 143288634
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7e68f98977739945b5461a0750290736
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 1850e42f358c8b41b2a1785bc6d51082
+      - ElementName: Play_Light_Damage
+        ObjectType: 3
+        guid: 3393b3c54682e441b06f05042616431e
+      Path: Events\Default Work Unit\SFX\Play_Light_Damage
+      maxAttenuation: 20
       maxDuration: -1
       minDuration: -1
     - name: Play_Music
@@ -157,10 +234,30 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 7e68f98977739945b5461a0750290736
+      - ElementName: Music
+        ObjectType: 4
+        guid: 43630e308fa50e438de46a9fd1aac8b3
       - ElementName: Play_Music
         ObjectType: 3
         guid: 5bac60c20ef86f4a83ed130c14a5474c
-      Path: Events\Default Work Unit\Play_Music
+      Path: Events\Default Work Unit\Music\Play_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SFX
+      guid: 1850e42f358c8b41b2a1785bc6d51082
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7e68f98977739945b5461a0750290736
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 1850e42f358c8b41b2a1785bc6d51082
+      Path: Events\Default Work Unit\SFX
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -174,10 +271,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 7e68f98977739945b5461a0750290736
+      - ElementName: Amb
+        ObjectType: 4
+        guid: bb2d6ea2b39c4e4e9ec6d85baa27e42a
       - ElementName: Stop_Amb
         ObjectType: 3
         guid: a9f6f86743e5d444b5415707e24ac9c3
-      Path: Events\Default Work Unit\Stop_Amb
+      Path: Events\Default Work Unit\Amb\Stop_Amb
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -191,10 +291,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 7e68f98977739945b5461a0750290736
+      - ElementName: Music
+        ObjectType: 4
+        guid: 43630e308fa50e438de46a9fd1aac8b3
       - ElementName: Stop_Music
         ObjectType: 3
         guid: 003bb13f599a9a4dad6ea4668402fa8f
-      Path: Events\Default Work Unit\Stop_Music
+      Path: Events\Default Work Unit\Music\Stop_Music
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -321,7 +424,7 @@ MonoBehaviour:
     m_lastTime: -8585128205918588421
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0600000007000000090000000a0000000c0000000d0000000e0000000f00000018000000
+  ExpandedWaapiItemIds: 05000000060000000700000008000000090000000a0000000c0000000d0000000e0000000f00000018000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

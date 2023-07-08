@@ -5,6 +5,8 @@
 			<ChildrenList>
 				<SoundBank Name="Strikethrough" ID="{EA5EDA8A-B29E-4509-B92B-29EC30D6FFBE}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Light_Damage" ID="{C5B39333-8246-41E4-B06F-05042616431E}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Crumple" ID="{B0401A48-D85E-42A5-BF93-BF47D4229C63}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Amb" ID="{67F8F6A9-E543-44D4-B541-5707E24AC9C3}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Music" ID="{C260AC5B-F80E-4A6F-83ED-130C14A5474C}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Amb" ID="{D3C0462A-CE12-4BFB-8500-FAF9E487920B}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}" Origin="Manual" Filter="7"/>
