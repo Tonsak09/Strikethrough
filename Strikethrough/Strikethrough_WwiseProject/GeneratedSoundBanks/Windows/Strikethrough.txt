@@ -19,7 +19,7 @@ State	ID	Name	State Group			Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	308889657	SFX_City_Amb	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Windows\SFX\Amb\SFX_City_Amb_1C5147B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\Ambiences\City Amb\SFX_City_Amb		620162
-	378301566	Page_Fold	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Windows\SFX\Sounds\Page_Fold_4_4AD49589.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\City\Interactables\Dialogue\Page_Fold		12136
+	378301566	Page_Fold	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Windows\SFX\Sounds\Page_Fold_4_173BDDC0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\City\Interactables\Dialogue\Page_Fold		12136
 	632126096	Pen_Click	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Windows\SFX\Sounds\Pen_Click_1_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\City\Interactables\Pen_Click		2709
 	686171758	Paper_Crumple	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Windows\SFX\Sounds\Paper_Crumple_1_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\City\Interactables\Paper_Crumple		11563
 	703741986	Music_City_P1	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Windows\SFX\Music\Music_City_P1_179463A7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music System\City Music\Part 1\Music_City_P1		1390812
