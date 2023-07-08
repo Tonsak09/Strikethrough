@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	435770000	Stop_Amb			\Default Work Unit\Stop_Amb	
+	2837384057	Stop_Music			\Default Work Unit\Stop_Music	
+	2932040671	Play_Music			\Default Work Unit\Play_Music	
+	2959533290	Play_Amb			\Default Work Unit\Play_Amb	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	529726550	Env			\Default Work Unit\Env	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Env			
+	2607556080	Menu	Env			
+	3888786832	City	Env			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	308889657	SFX_City_Amb	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Mac\SFX\Amb\SFX_City_Amb_13F2E9FF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\Ambiences\City Amb\SFX_City_Amb		620162
+	703741986	Music_City_P1	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Mac\SFX\Music\Music_City_P1_179463A7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music System\City Music\Part 1\Music_City_P1		1390812
+	974325654	Music_City_P2	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Mac\SFX\Music\Music_City_P2_179463A7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music System\City Music\Part 2\Music_City_P2		1387552
+

@@ -3,7 +3,7 @@
 	<InteractiveMusic>
 		<WorkUnit Name="Default Work Unit" ID="{19ED2829-E324-4E9D-B94A-71CE44A91061}" PersistMode="Standalone">
 			<ChildrenList>
-				<WorkUnit Name="City" ID="{1B5EE7F7-B673-4711-9CF8-5A6C7DF8D9F9}" PersistMode="Reference"/>
+				<WorkUnit Name="Music" ID="{1B5EE7F7-B673-4711-9CF8-5A6C7DF8D9F9}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</InteractiveMusic>

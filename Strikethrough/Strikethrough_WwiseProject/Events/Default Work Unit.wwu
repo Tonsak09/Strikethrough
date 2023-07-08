@@ -8,7 +8,7 @@
 						<Action Name="" ID="{59E31844-E701-4973-B0F3-7C8EEA646939}" ShortID="558939053">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="City Music" ID="{D4433B0E-8844-4A2C-BA5B-B8788F0B19D3}" WorkUnitID="{1B5EE7F7-B673-4711-9CF8-5A6C7DF8D9F9}"/>
+									<ObjectRef Name="Music System" ID="{1F14EDF9-0865-40B3-80F9-2D8AEA955A81}" WorkUnitID="{1B5EE7F7-B673-4711-9CF8-5A6C7DF8D9F9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -23,7 +23,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="City Music" ID="{D4433B0E-8844-4A2C-BA5B-B8788F0B19D3}" WorkUnitID="{1B5EE7F7-B673-4711-9CF8-5A6C7DF8D9F9}"/>
+									<ObjectRef Name="Music System" ID="{1F14EDF9-0865-40B3-80F9-2D8AEA955A81}" WorkUnitID="{1B5EE7F7-B673-4711-9CF8-5A6C7DF8D9F9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

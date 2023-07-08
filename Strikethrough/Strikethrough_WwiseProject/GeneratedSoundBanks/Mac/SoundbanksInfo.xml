@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1538343061">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1746225310" Language="SFX" Hash="1518725000">
+			<ObjectPath>\SoundBanks\Default Work Unit\Strikethrough</ObjectPath>
+			<ShortName>Strikethrough</ShortName>
+			<Path>Strikethrough.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2959533290" Name="Play_Amb" ObjectPath="\Events\Default Work Unit\Play_Amb" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="308889657" Language="SFX">
+							<ShortName>Amb\SFX_City_Amb.wav</ShortName>
+							<Path>SFX\Amb\SFX_City_Amb_13F2E9FF.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="703741986" Language="SFX">
+							<ShortName>Music\Music_City_P1.wav</ShortName>
+							<Path>SFX\Music\Music_City_P1_179463A7.wem</Path>
+						</File>
+						<File Id="974325654" Language="SFX">
+							<ShortName>Music\Music_City_P2.wav</ShortName>
+							<Path>SFX\Music\Music_City_P2_179463A7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{B89926FF-4272-41BE-A3B7-29219AE1A570}">
+							<Media>
+								<File Id="703741986"/>
+								<File Id="974325654"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="435770000" Name="Stop_Amb" ObjectPath="\Events\Default Work Unit\Stop_Amb" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2837384057" Name="Stop_Music" ObjectPath="\Events\Default Work Unit\Stop_Music" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="529726550" Name="Env" ObjectPath="\States\Default Work Unit\Env" GUID="{4B8DB026-C905-4F56-8840-2B425C1DD916}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Env\None" GUID="{1DAF9485-CE55-4CD8-8454-FC0BC62932E2}"/>
+						<State Id="3888786832" Name="City" ObjectPath="\States\Default Work Unit\Env\City" GUID="{B89926FF-4272-41BE-A3B7-29219AE1A570}"/>
+						<State Id="2607556080" Name="Menu" ObjectPath="\States\Default Work Unit\Env\Menu" GUID="{3E0074CB-98A8-46D6-9F85-C138B55EA15A}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

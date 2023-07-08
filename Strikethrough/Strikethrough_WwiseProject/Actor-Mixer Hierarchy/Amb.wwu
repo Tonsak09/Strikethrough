@@ -16,6 +16,11 @@
 						<RandomSequenceContainer Name="City Amb" ID="{D38AAC2D-5322-41B2-8A96-4828B1D68C57}" ShortID="880581989">
 							<PropertyList>
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
