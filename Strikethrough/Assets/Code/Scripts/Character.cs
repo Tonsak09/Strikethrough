@@ -22,6 +22,8 @@ public class Character : MonoBehaviour
     private bool inZone;
     private bool inDialogue;
 
+    private bool over;
+
     private enum DialogueState
     {
         canStart,
@@ -37,21 +39,25 @@ public class Character : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!inDialogue)
+        if(!over)
         {
-            UpdateDisplay();
-
-            if(Input.GetKeyDown(interactKey) && inZone)
+            if (!inDialogue)
             {
-                inDialogue = true;
-                myEvent.Post(this.gameObject);
+                UpdateDisplay();
+
+                if (Input.GetKeyDown(interactKey) && inZone)
+                {
+                    inDialogue = true;
+                    myEvent.Post(this.gameObject);
+                }
+            }
+            else
+            {
+                display.gameObject.SetActive(false);
+                over = dialaogueManager.TryRunDialogue(dialogue);
             }
         }
-        else
-        {
-            display.gameObject.SetActive(false);
-            dialaogueManager.TryRunDialogue(dialogue);
-        }
+        
     }
 
     /// <summary>

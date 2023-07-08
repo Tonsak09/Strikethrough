@@ -21,6 +21,7 @@ public class DialaogueManager : MonoBehaviour
 
     private void Update()
     {
+        print(inUse);
         if(inUse)
         {
             textMesh.text = dialogueList[index];
@@ -56,6 +57,7 @@ public class DialaogueManager : MonoBehaviour
 
     private void TurnOff()
     {
+        print("turning off");
         inUse = false;
         index = 0;
 
