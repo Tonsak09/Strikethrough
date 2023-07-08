@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3B9F9BD3-A6F5-4980-9063-67825269AFA6}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{3B9F9BD3-A6F5-4980-9063-67825269AFA6}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Strikethrough" ID="{EA5EDA8A-B29E-4509-B92B-29EC30D6FFBE}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Stop_Amb" ID="{67F8F6A9-E543-44D4-B541-5707E24AC9C3}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Music" ID="{C260AC5B-F80E-4A6F-83ED-130C14A5474C}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Amb" ID="{D3C0462A-CE12-4BFB-8500-FAF9E487920B}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Music" ID="{3FB13B00-9A59-4D9A-AD6E-A4668402FA8F}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
