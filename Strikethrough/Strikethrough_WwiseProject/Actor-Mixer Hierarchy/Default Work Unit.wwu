@@ -4,6 +4,7 @@
 		<WorkUnit Name="Default Work Unit" ID="{2B638A63-A6FF-4481-A814-7A5BBEA4EA42}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="Amb" ID="{8D2F1CDC-8D55-46B7-86FB-749EB032C04F}" PersistMode="Reference"/>
+				<WorkUnit Name="SFX" ID="{40CD415B-5A02-45ED-8E94-12973DC945E9}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
