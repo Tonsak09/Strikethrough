@@ -71,9 +71,12 @@
 						<Event Name="Play_Light_Damage" ID="{C5B39333-8246-41E4-B06F-05042616431E}">
 							<ChildrenList>
 								<Action Name="" ID="{8C424798-2E61-4DB8-8192-66E371B53D83}" ShortID="732806248">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Light_Damage" ID="{2F475D0A-812D-4930-A3D8-2E2A76C7A23C}" WorkUnitID="{40CD415B-5A02-45ED-8E94-12973DC945E9}"/>
+											<ObjectRef Name="Light_Damage" ID="{2F475D0A-812D-4930-A3D8-2E2A76C7A23C}" WorkUnitID="{8D2F1CDC-8D55-46B7-86FB-749EB032C04F}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
