@@ -3,61 +3,95 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{89F9687E-7377-4599-B546-1A0750290736}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Music" ID="{C260AC5B-F80E-4A6F-83ED-130C14A5474C}">
+				<Folder Name="Music" ID="{300E6343-A58F-430E-8DE4-6A9FD1AAC8B3}" ShortID="879505662">
 					<ChildrenList>
-						<Action Name="" ID="{59E31844-E701-4973-B0F3-7C8EEA646939}" ShortID="558939053">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Music System" ID="{1F14EDF9-0865-40B3-80F9-2D8AEA955A81}" WorkUnitID="{1B5EE7F7-B673-4711-9CF8-5A6C7DF8D9F9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_Music" ID="{C260AC5B-F80E-4A6F-83ED-130C14A5474C}">
+							<ChildrenList>
+								<Action Name="" ID="{59E31844-E701-4973-B0F3-7C8EEA646939}" ShortID="558939053">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music System" ID="{1F14EDF9-0865-40B3-80F9-2D8AEA955A81}" WorkUnitID="{1B5EE7F7-B673-4711-9CF8-5A6C7DF8D9F9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Music" ID="{3FB13B00-9A59-4D9A-AD6E-A4668402FA8F}">
+							<ChildrenList>
+								<Action Name="" ID="{0C5DB87A-F0BC-4F5B-9A56-596D9B972E4F}" ShortID="548669823">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music System" ID="{1F14EDF9-0865-40B3-80F9-2D8AEA955A81}" WorkUnitID="{1B5EE7F7-B673-4711-9CF8-5A6C7DF8D9F9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Stop_Music" ID="{3FB13B00-9A59-4D9A-AD6E-A4668402FA8F}">
+				</Folder>
+				<Folder Name="Amb" ID="{A26E2DBB-9CB3-4E4E-9EC6-D85BAA27E42A}" ShortID="406436873">
 					<ChildrenList>
-						<Action Name="" ID="{0C5DB87A-F0BC-4F5B-9A56-596D9B972E4F}" ShortID="548669823">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Music System" ID="{1F14EDF9-0865-40B3-80F9-2D8AEA955A81}" WorkUnitID="{1B5EE7F7-B673-4711-9CF8-5A6C7DF8D9F9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Stop_Amb" ID="{67F8F6A9-E543-44D4-B541-5707E24AC9C3}">
+							<ChildrenList>
+								<Action Name="" ID="{E00A366E-9DCF-4086-809A-80A687D79155}" ShortID="1017068863">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="City Amb" ID="{D38AAC2D-5322-41B2-8A96-4828B1D68C57}" WorkUnitID="{8D2F1CDC-8D55-46B7-86FB-749EB032C04F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Amb" ID="{D3C0462A-CE12-4BFB-8500-FAF9E487920B}">
+							<ChildrenList>
+								<Action Name="" ID="{4E61BE0B-4940-4E66-8527-E238A7C33C4C}" ShortID="362953906">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="City Amb" ID="{D38AAC2D-5322-41B2-8A96-4828B1D68C57}" WorkUnitID="{8D2F1CDC-8D55-46B7-86FB-749EB032C04F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Play_Amb" ID="{D3C0462A-CE12-4BFB-8500-FAF9E487920B}">
+				</Folder>
+				<Folder Name="SFX" ID="{2FE45018-8C35-418B-B2A1-785BC6D51082}" ShortID="791931843">
 					<ChildrenList>
-						<Action Name="" ID="{4E61BE0B-4940-4E66-8527-E238A7C33C4C}" ShortID="362953906">
-							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="City Amb" ID="{D38AAC2D-5322-41B2-8A96-4828B1D68C57}" WorkUnitID="{8D2F1CDC-8D55-46B7-86FB-749EB032C04F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_Crumple" ID="{B0401A48-D85E-42A5-BF93-BF47D4229C63}">
+							<ChildrenList>
+								<Action Name="" ID="{90FB7936-3991-4B1D-8511-768ECBBEEE76}" ShortID="642794083">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Paper_Crumple" ID="{52604879-D4FA-4BB0-9C1F-CFE307A0E471}" WorkUnitID="{40CD415B-5A02-45ED-8E94-12973DC945E9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Light_Damage" ID="{C5B39333-8246-41E4-B06F-05042616431E}">
+							<ChildrenList>
+								<Action Name="" ID="{8C424798-2E61-4DB8-8192-66E371B53D83}" ShortID="732806248">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Light_Damage" ID="{2F475D0A-812D-4930-A3D8-2E2A76C7A23C}" WorkUnitID="{40CD415B-5A02-45ED-8E94-12973DC945E9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Stop_Amb" ID="{67F8F6A9-E543-44D4-B541-5707E24AC9C3}">
-					<ChildrenList>
-						<Action Name="" ID="{E00A366E-9DCF-4086-809A-80A687D79155}" ShortID="1017068863">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeTime" Type="Real64" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="City Amb" ID="{D38AAC2D-5322-41B2-8A96-4828B1D68C57}" WorkUnitID="{8D2F1CDC-8D55-46B7-86FB-749EB032C04F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

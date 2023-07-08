@@ -21,10 +21,18 @@
 							<ObjectRef Name="Stop_Amb" ID="{67F8F6A9-E543-44D4-B541-5707E24AC9C3}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}"/>
 							<Position X="1" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_Crumple" ID="{B0401A48-D85E-42A5-BF93-BF47D4229C63}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Light_Damage" ID="{C5B39333-8246-41E4-B06F-05042616431E}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}"/>
+							<Position X="3" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="None" ID="{1DAF9485-CE55-4CD8-8454-FC0BC62932E2}"/>
+						<CurrentStateRef Name="City" ID="{B89926FF-4272-41BE-A3B7-29219AE1A570}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
