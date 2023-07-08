@@ -18,6 +18,7 @@ public class EntityManager : MonoBehaviour
     {
         ground.position = player.position;
 
+        // Update origin pos of every visual 
         for (int i = 0; i < visuals.Length; i++)
         {
             visuals[i].SetPos(player.position);
