@@ -13,54 +13,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="Paper_Crumple" ID="{52604879-D4FA-4BB0-9C1F-CFE307A0E471}" ShortID="815768496">
-							<PropertyList>
-								<Property Name="Highpass" Type="int16">
-									<ValueList>
-										<Value>15</Value>
-									</ValueList>
-								</Property>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{E1FBB07A-8A78-4E76-949A-DAA3A8544AA0}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="200"/>
-													<Property Name="Min" Type="Real64" Value="-200"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-3</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E14487C9-254D-4E3C-AC50-1B8CAB665C4F}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{77C77D34-9C30-4DBF-9E37-7B5881A1F3B4}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Paper_Crumple_1" ID="{7700220A-6AE7-4663-B2AC-133B2993610A}">
-									<Language>SFX</Language>
-									<AudioFile>Sounds\Paper_Crumple_1.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="686171758"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="Paper_Crumple_1" ID="{7700220A-6AE7-4663-B2AC-133B2993610A}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="Light_Damage" ID="{2F475D0A-812D-4930-A3D8-2E2A76C7A23C}" ShortID="690080940">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
@@ -93,7 +45,7 @@
 														<Value>False</Value>
 													</ValueList>
 												</Property>
-												<Property Name="RadiusMax" Type="Real64" Value="10"/>
+												<Property Name="RadiusMax" Type="Real64" Value="8"/>
 											</PropertyList>
 											<CurveUsageInfoList>
 												<VolumeDryUsage>
@@ -109,27 +61,32 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>2.4914125</XPos>
+																	<XPos>1.99313</XPos>
 																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>4.98711</XPos>
-																	<YPos>-7.91414</YPos>
+																	<XPos>3.00129</XPos>
+																	<YPos>-3.58986</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>6.4433</XPos>
-																	<YPos>-12.80985</YPos>
+																	<XPos>3.98969</XPos>
+																	<YPos>-7.80176</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>7.525775</XPos>
-																	<YPos>-19.55634</YPos>
+																	<XPos>4.9787</XPos>
+																	<YPos>-17.0885</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
-																	<XPos>10</XPos>
+																	<XPos>5.98957</XPos>
+																	<YPos>-23.27462</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>8</XPos>
 																	<YPos>-200</YPos>
 																	<Flags>37</Flags>
 																</Point>
@@ -189,6 +146,223 @@
 								<ActiveSource Name="Damage_Light_1" ID="{3F5723D9-4C3A-4141-AE1C-4E94590BDFE0}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<ActorMixer Name="Interactables" ID="{F514ED1E-5A97-47FE-821A-C6F420873AC0}" ShortID="946925560">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E14487C9-254D-4E3C-AC50-1B8CAB665C4F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{77C77D34-9C30-4DBF-9E37-7B5881A1F3B4}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Paper_Crumple" ID="{52604879-D4FA-4BB0-9C1F-CFE307A0E471}" ShortID="815768496">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>21</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>11</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E1FBB07A-8A78-4E76-949A-DAA3A8544AA0}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E14487C9-254D-4E3C-AC50-1B8CAB665C4F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{77C77D34-9C30-4DBF-9E37-7B5881A1F3B4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Paper_Crumple_1" ID="{7700220A-6AE7-4663-B2AC-133B2993610A}">
+											<Language>SFX</Language>
+											<AudioFile>Sounds\Paper_Crumple_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="686171758"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Paper_Crumple_1" ID="{7700220A-6AE7-4663-B2AC-133B2993610A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Pen_Click" ID="{1B435FF9-196E-465A-A713-9C8CD3831766}" ShortID="951964562">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>29</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>22</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{CB645C62-FFBD-42D7-97AC-7F60178911A8}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E14487C9-254D-4E3C-AC50-1B8CAB665C4F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{77C77D34-9C30-4DBF-9E37-7B5881A1F3B4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Pen_Click_1" ID="{4A23FF9B-0A83-4BC8-8E73-3DCB1F98A811}">
+											<Language>SFX</Language>
+											<AudioFile>Sounds\Pen_Click_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="632126096"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Pen_Click_1" ID="{4A23FF9B-0A83-4BC8-8E73-3DCB1F98A811}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Folder Name="Dialogue" ID="{9066CE79-D659-4287-9EC6-173FE13B2561}" ShortID="183223767">
+									<ChildrenList>
+										<Sound Name="Page_Fold" ID="{0C54A86A-029D-43D4-84A1-44186EF86807}" ShortID="303204081">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{26005208-707A-43D7-B6C2-888D6F7EFFD7}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E14487C9-254D-4E3C-AC50-1B8CAB665C4F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{77C77D34-9C30-4DBF-9E37-7B5881A1F3B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Page_Fold_4" ID="{2283ACAC-8D5A-4519-B3E7-4B77EC657252}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0161244411326379"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0618103576751117"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Sounds\Page_Fold_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="378301566"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Page_Fold_4" ID="{2283ACAC-8D5A-4519-B3E7-4B77EC657252}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pencil Writing" ID="{BC7151D5-D0D9-4DA5-B047-998F8207AE26}" ShortID="122135695">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>80</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{355E57FE-D839-49C9-A91D-3FC9BA6FE15A}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E14487C9-254D-4E3C-AC50-1B8CAB665C4F}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{77C77D34-9C30-4DBF-9E37-7B5881A1F3B4}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pencil_Writing_1" ID="{33BDA214-A5C5-4932-8268-AC67F0D1A655}">
+													<Language>SFX</Language>
+													<AudioFile>Sounds\Pencil_Writing_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="878435454"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Pencil_Writing_1" ID="{33BDA214-A5C5-4932-8268-AC67F0D1A655}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+							<ObjectLists/>
+						</ActorMixer>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>

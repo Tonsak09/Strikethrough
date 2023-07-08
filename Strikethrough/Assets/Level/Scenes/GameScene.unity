@@ -540,7 +540,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 267853949}
-  m_LocalRotation: {x: 0.1984927, y: -0.000000013588801, z: 0.0000000027520366, w: 0.98010236}
+  m_LocalRotation: {x: 0.19849272, y: 0.000000018626727, z: -0.00000000377233, w: 0.98010236}
   m_LocalPosition: {x: 0, y: 4.43, z: -8.36}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -869,7 +869,7 @@ MonoBehaviour:
   myEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 0f0c6e4da2535e34d9188117a00f320c,
+    WwiseObjectReference: {fileID: 11400000, guid: 2a72779f8f18d8544ab717ec9fd2dd9d,
       type: 2}
 --- !u!4 &465235822
 Transform:
@@ -1963,7 +1963,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1297894831}
-  m_LocalRotation: {x: 0.1984927, y: -0.000000013588801, z: 0.0000000027520366, w: 0.98010236}
+  m_LocalRotation: {x: 0.19849272, y: 0.000000018626727, z: -0.00000000377233, w: 0.98010236}
   m_LocalPosition: {x: 0, y: 4.43, z: -8.36}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3043,7 +3043,7 @@ MonoBehaviour:
   myEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 0f0c6e4da2535e34d9188117a00f320c,
+    WwiseObjectReference: {fileID: 11400000, guid: 2a72779f8f18d8544ab717ec9fd2dd9d,
       type: 2}
 --- !u!136 &1791008975
 CapsuleCollider:
