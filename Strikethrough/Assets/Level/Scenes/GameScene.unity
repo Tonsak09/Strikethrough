@@ -1739,6 +1739,11 @@ MonoBehaviour:
   textBox: {fileID: 572975004}
   textMesh: {fileID: 1115855567}
   continueKey: 101
+  myEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a6852af274f7bb047985bb95a5de6737,
+      type: 2}
 --- !u!1 &1088155577
 GameObject:
   m_ObjectHideFlags: 0

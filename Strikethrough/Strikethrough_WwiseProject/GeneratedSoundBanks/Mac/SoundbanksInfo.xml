@@ -8,7 +8,16 @@
 		<ExternalSourcesOutputRoot>D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
-	<StreamedFiles/>
+	<StreamedFiles>
+		<File Id="308889657" Language="SFX">
+			<ShortName>Amb\SFX_City_Amb.wav</ShortName>
+			<Path>SFX\Amb\SFX_City_Amb_1C5147B7.wem</Path>
+		</File>
+		<File Id="1008457641" Language="SFX">
+			<ShortName>Sounds\Damage_Light_1.wav</ShortName>
+			<Path>SFX\Sounds\Damage_Light_1_179463A7.wem</Path>
+		</File>
+	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
 		<SoundBank Id="1355168291" Language="SFX" Hash="1343120288">
@@ -19,18 +28,18 @@
 				<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="1746225310" Language="SFX" Hash="3102814035">
+		<SoundBank Id="1746225310" Language="SFX" Hash="3711726160">
 			<ObjectPath>\SoundBanks\Default Work Unit\Strikethrough</ObjectPath>
 			<ShortName>Strikethrough</ShortName>
 			<Path>Strikethrough.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2959533290" Name="Play_Amb" ObjectPath="\Events\Default Work Unit\Amb\Play_Amb" DurationType="Infinite">
-					<IncludedMemoryFiles>
+					<ReferencedStreamedFiles>
 						<File Id="308889657" Language="SFX">
 							<ShortName>Amb\SFX_City_Amb.wav</ShortName>
 							<Path>SFX\Amb\SFX_City_Amb_1C5147B7.wem</Path>
 						</File>
-					</IncludedMemoryFiles>
+					</ReferencedStreamedFiles>
 				</Event>
 				<Event Id="267911644" Name="Play_Dialogue" ObjectPath="\Events\Default Work Unit\SFX\Dialogue\Play_Dialogue" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -61,12 +70,12 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="143288634" Name="Play_Light_Damage" ObjectPath="\Events\Default Work Unit\SFX\Play_Light_Damage" MaxAttenuation="8." DurationType="Infinite">
-					<IncludedMemoryFiles>
+					<ReferencedStreamedFiles>
 						<File Id="1008457641" Language="SFX">
 							<ShortName>Sounds\Damage_Light_1.wav</ShortName>
 							<Path>SFX\Sounds\Damage_Light_1_179463A7.wem</Path>
 						</File>
-					</IncludedMemoryFiles>
+					</ReferencedStreamedFiles>
 				</Event>
 				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Music\Play_Music" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -97,7 +106,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="435770000" Name="Stop_Amb" ObjectPath="\Events\Default Work Unit\Amb\Stop_Amb" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="288905442" Name="Stop_Dialogue" ObjectPath="\Events\Default Work Unit\SFX\Dialogue\Stop_Dialogue" DurationType="OneShot" DurationMin="1.145417" DurationMax="1.224456">
+				<Event Id="288905442" Name="Stop_Dialogue" ObjectPath="\Events\Default Work Unit\SFX\Dialogue\Stop_Dialogue" DurationType="OneShot" DurationMin="0.645417" DurationMax="0.724456">
 					<IncludedMemoryFiles>
 						<File Id="686171758" Language="SFX">
 							<ShortName>Sounds\Paper_Crumple_1.wav</ShortName>
