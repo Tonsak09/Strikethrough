@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1746225310" Language="SFX" Hash="2659576402">
+		<SoundBank Id="1746225310" Language="SFX" Hash="4227911958">
 			<ObjectPath>\SoundBanks\Default Work Unit\Strikethrough</ObjectPath>
 			<ShortName>Strikethrough</ShortName>
 			<Path>Strikethrough.bnk</Path>
@@ -41,7 +41,7 @@
 					<IncludedMemoryFiles>
 						<File Id="378301566" Language="SFX">
 							<ShortName>Sounds\Page_Fold_4.wav</ShortName>
-							<Path>SFX\Sounds\Page_Fold_4_4AD49589.wem</Path>
+							<Path>SFX\Sounds\Page_Fold_4_173BDDC0.wem</Path>
 						</File>
 						<File Id="878435454" Language="SFX">
 							<ShortName>Sounds\Pencil_Writing_1.wav</ShortName>
@@ -49,7 +49,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="143288634" Name="Play_Light_Damage" ObjectPath="\Events\Default Work Unit\SFX\Play_Light_Damage" MaxAttenuation="8." DurationType="Infinite">
+				<Event Id="143288634" Name="Play_Light_Damage" ObjectPath="\Events\Default Work Unit\SFX\Play_Light_Damage" MaxAttenuation="5." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="1008457641" Language="SFX">
 							<ShortName>Sounds\Damage_Light_1.wav</ShortName>

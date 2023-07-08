@@ -264,7 +264,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 3393b3c54682e441b06f05042616431e
       Path: Events\Default Work Unit\SFX\Play_Light_Damage
-      maxAttenuation: 8
+      maxAttenuation: 5
       maxDuration: -1
       minDuration: -1
     - name: Play_Music
