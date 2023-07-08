@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1746225310" Language="SFX" Hash="1029050962">
+		<SoundBank Id="1746225310" Language="SFX" Hash="4227911958">
 			<ObjectPath>\SoundBanks\Default Work Unit\Strikethrough</ObjectPath>
 			<ShortName>Strikethrough</ShortName>
 			<Path>Strikethrough.bnk</Path>
@@ -29,7 +29,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3663206200" Name="Play_Crumple" ObjectPath="\Events\Default Work Unit\SFX\Play_Crumple" DurationType="OneShot" DurationMin="0.575001" DurationMax="0.724456">
+				<Event Id="3663206200" Name="Play_Crumple" ObjectPath="\Events\Default Work Unit\SFX\Play_Crumple" DurationType="OneShot" DurationMin="0.609192" DurationMax="0.683795">
 					<IncludedMemoryFiles>
 						<File Id="686171758" Language="SFX">
 							<ShortName>Sounds\Paper_Crumple_1.wav</ShortName>
@@ -37,7 +37,19 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="143288634" Name="Play_Light_Damage" ObjectPath="\Events\Default Work Unit\SFX\Play_Light_Damage" MaxAttenuation="10." DurationType="Infinite">
+				<Event Id="267911644" Name="Play_Dialogue" ObjectPath="\Events\Default Work Unit\SFX\Dialogue\Play_Dialogue" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="378301566" Language="SFX">
+							<ShortName>Sounds\Page_Fold_4.wav</ShortName>
+							<Path>SFX\Sounds\Page_Fold_4_173BDDC0.wem</Path>
+						</File>
+						<File Id="878435454" Language="SFX">
+							<ShortName>Sounds\Pencil_Writing_1.wav</ShortName>
+							<Path>SFX\Sounds\Pencil_Writing_1_179463A7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="143288634" Name="Play_Light_Damage" ObjectPath="\Events\Default Work Unit\SFX\Play_Light_Damage" MaxAttenuation="5." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="1008457641" Language="SFX">
 							<ShortName>Sounds\Damage_Light_1.wav</ShortName>
@@ -65,7 +77,16 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="2938762846" Name="Play_Pen_Click" ObjectPath="\Events\Default Work Unit\SFX\Play_Pen_Click" DurationType="OneShot" DurationMin="0.136233" DurationMax="0.152916">
+					<IncludedMemoryFiles>
+						<File Id="632126096" Language="SFX">
+							<ShortName>Sounds\Pen_Click_1.wav</ShortName>
+							<Path>SFX\Sounds\Pen_Click_1_835714D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="435770000" Name="Stop_Amb" ObjectPath="\Events\Default Work Unit\Amb\Stop_Amb" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="288905442" Name="Stop_Dialogue" ObjectPath="\Events\Default Work Unit\SFX\Dialogue\Stop_Dialogue" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="2837384057" Name="Stop_Music" ObjectPath="\Events\Default Work Unit\Music\Stop_Music" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 			<StateGroups>

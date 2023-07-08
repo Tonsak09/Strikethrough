@@ -90,6 +90,58 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Folder Name="Dialogue" ID="{34C0458E-DDB7-4630-A9FB-0B5F27C7BAEE}" ShortID="590977113">
+							<ChildrenList>
+								<Event Name="Play_Dialogue" ID="{620A7F92-7C80-4D6C-91D7-33FE38D66C3B}">
+									<ChildrenList>
+										<Action Name="" ID="{34A9AC6D-920D-47C7-A43D-8FF1DE36C578}" ShortID="264765869">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Page_Fold" ID="{0C54A86A-029D-43D4-84A1-44186EF86807}" WorkUnitID="{40CD415B-5A02-45ED-8E94-12973DC945E9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{5E16AF30-BC52-46C7-8A83-49AEB6176275}" ShortID="82387727">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="0.5"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Pencil Writing" ID="{BC7151D5-D0D9-4DA5-B047-998F8207AE26}" WorkUnitID="{40CD415B-5A02-45ED-8E94-12973DC945E9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_Dialogue" ID="{5845FA77-04B8-45A8-B538-888F89F16CC1}">
+									<ChildrenList>
+										<Action Name="" ID="{A54115A6-DEAA-4550-90F3-5B46D14429F0}" ShortID="154605407">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Pencil Writing" ID="{BC7151D5-D0D9-4DA5-B047-998F8207AE26}" WorkUnitID="{40CD415B-5A02-45ED-8E94-12973DC945E9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Event Name="Play_Pen_Click" ID="{4A35C79D-A6F8-4B85-8229-C7E9DB65C2C1}">
+							<ChildrenList>
+								<Action Name="" ID="{A3BFE6DB-E63B-4FA6-B7FC-CF674F375897}" ShortID="492607027">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pen_Click" ID="{1B435FF9-196E-465A-A713-9C8CD3831766}" WorkUnitID="{40CD415B-5A02-45ED-8E94-12973DC945E9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
