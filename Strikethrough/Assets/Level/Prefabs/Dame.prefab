@@ -203,7 +203,7 @@ MonoBehaviour:
   myEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 0f0c6e4da2535e34d9188117a00f320c,
+    WwiseObjectReference: {fileID: 11400000, guid: 2a72779f8f18d8544ab717ec9fd2dd9d,
       type: 2}
 --- !u!136 &4952785147117721903
 CapsuleCollider:
