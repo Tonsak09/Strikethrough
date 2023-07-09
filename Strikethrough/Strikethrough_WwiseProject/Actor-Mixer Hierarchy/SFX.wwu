@@ -236,8 +236,8 @@
 																	<Flags>5</Flags>
 																</Point>
 																<Point>
-																	<XPos>6.84825</XPos>
-																	<YPos>-8.31106</YPos>
+																	<XPos>9.40352</XPos>
+																	<YPos>-4.3102</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
@@ -298,7 +298,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>3</Value>
+												<Value>-5</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -331,7 +331,6 @@
 												<Value>35</Value>
 											</ValueList>
 										</Property>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
 										<Property Name="Lowpass" Type="int16">
 											<ValueList>
@@ -345,7 +344,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-5</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -361,9 +360,10 @@
 										<AudioFileSource Name="Flashlight_Shake_1" ID="{4203D661-A8FD-4A59-9C43-8D638B5B613D}">
 											<PropertyList>
 												<Property Name="CrossfadeDuration" Type="Real64" Value="113.318"/>
-												<Property Name="LoopBegin" Type="Real64" Value="0.222805493273543"/>
-												<Property Name="LoopEnd" Type="Real64" Value="2.34193329596413"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.450562219730942"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.683270179372197"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.38139405829596"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Sounds\Flashlight_Shake_1.wav</AudioFile>
@@ -404,7 +404,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>2</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -428,6 +428,189 @@
 									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Pen_Click_1" ID="{4A23FF9B-0A83-4BC8-8E73-3DCB1F98A811}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Flashlight_Damage" ID="{4CD677C7-486E-48A7-AB4A-59C9D40FE1D3}" ShortID="11765289">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>30</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="70"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{90172FE8-E83D-426D-AE5F-9F14A80BEA99}" ShortID="1021366847">
+													<PropertyList>
+														<Property Name="ConeAttenuation" Type="Real64">
+															<ValueList>
+																<Value>-1</Value>
+															</ValueList>
+														</Property>
+														<Property Name="ConeInnerAngle" Type="int32" Value="10"/>
+														<Property Name="ConeOuterAngle" Type="int32" Value="30"/>
+														<Property Name="ConeUse" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="HeightSpreadEnable" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+														<Property Name="RadiusMax" Type="Real64" Value="15"/>
+													</PropertyList>
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{AEAD9CBB-6166-41B0-8703-480D8233B43C}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>3.89392</XPos>
+																			<YPos>0</YPos>
+																			<Flags>0</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>6.95183</XPos>
+																			<YPos>-1.84298</YPos>
+																			<Flags>0</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>8.45827</XPos>
+																			<YPos>-6.74204</YPos>
+																			<Flags>0</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>10.27332</XPos>
+																			<YPos>-14.72645</YPos>
+																			<Flags>0</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>11.83295625</XPos>
+																			<YPos>-22.61284</YPos>
+																			<Flags>0</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>13.6789875</XPos>
+																			<YPos>-25.52924</YPos>
+																			<Flags>0</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>15</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="LowPassFilter" ID="{AD3AAFCB-02BD-4731-A2CC-C7D3C74A79BB}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="65537"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>15</XPos>
+																			<YPos>50</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E14487C9-254D-4E3C-AC50-1B8CAB665C4F}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Amb" ID="{70DB3D19-1B11-436C-8AF0-79A82EB69394}" WorkUnitID="{77C77D34-9C30-4DBF-9E37-7B5881A1F3B4}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Damage_Light_1" ID="{9348D8BE-FE43-4948-B043-0E936A01CB19}">
+											<Language>SFX</Language>
+											<AudioFile>Sounds\Damage_Light_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1008457641"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{935B5101-5C12-4708-9A31-C15BC6E06E8B}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="-9.88098491916389E-15"/>
+												<Property Name="PanY" Type="Real64" Value="-0.362318840579723"/>
+											</PropertyList>
+										</Panner>
+										<Position Name="" ID="{C9AEAB95-6E17-4B53-9EC5-6333C817E9AA}"/>
+									</PositioningInfo>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Damage_Light_1" ID="{9348D8BE-FE43-4948-B043-0E936A01CB19}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
