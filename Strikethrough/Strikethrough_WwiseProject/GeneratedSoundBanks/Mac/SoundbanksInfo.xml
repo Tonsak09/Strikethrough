@@ -28,7 +28,7 @@
 				<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="1746225310" Language="SFX" Hash="1943157249">
+		<SoundBank Id="1746225310" Language="SFX" Hash="3556104755">
 			<ObjectPath>\SoundBanks\Default Work Unit\Strikethrough</ObjectPath>
 			<ShortName>Strikethrough</ShortName>
 			<Path>Strikethrough.bnk</Path>
@@ -40,6 +40,14 @@
 							<Path>SFX\Amb\SFX_City_Amb_1C5147B7.wem</Path>
 						</File>
 					</ReferencedStreamedFiles>
+				</Event>
+				<Event Id="639442169" Name="Play_Crowd" ObjectPath="\Events\Default Work Unit\Amb\Play_Crowd" MaxAttenuation="15." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="826086542" Language="SFX">
+							<ShortName>Amb\Crowd_Whispers_1.wav</ShortName>
+							<Path>SFX\Amb\Crowd_Whispers_1_6743F629.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="267911644" Name="Play_Dialogue" ObjectPath="\Events\Default Work Unit\SFX\Dialogue\Play_Dialogue" DurationType="Infinite">
 					<IncludedMemoryFiles>

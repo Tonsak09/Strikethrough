@@ -7,6 +7,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Light_Damage" ID="{C5B39333-8246-41E4-B06F-05042616431E}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Flashlight_Out" ID="{68E2919E-2F84-42F4-9B9A-3BC8BABD0CB2}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Crowd" ID="{5852A6A2-F3D8-4443-BBBB-EF001D0225C8}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Amb" ID="{67F8F6A9-E543-44D4-B541-5707E24AC9C3}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Dialogue" ID="{5845FA77-04B8-45A8-B538-888F89F16CC1}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Flashlight_Shake" ID="{D75071EA-81FD-469E-AD1F-E6C0BD2DDEB5}" WorkUnitID="{89F9687E-7377-4599-B546-1A0750290736}" Origin="Manual" Filter="7"/>

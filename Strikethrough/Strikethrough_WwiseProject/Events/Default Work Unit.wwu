@@ -64,6 +64,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Crowd" ID="{5852A6A2-F3D8-4443-BBBB-EF001D0225C8}">
+							<ChildrenList>
+								<Action Name="" ID="{DF3B1B58-33E7-4590-B95B-06FCE6C219E6}" ShortID="959042738">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Crowd_Whispers" ID="{9565319C-2628-4108-B72E-7D1251F5FD00}" WorkUnitID="{8D2F1CDC-8D55-46B7-86FB-749EB032C04F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="SFX" ID="{2FE45018-8C35-418B-B2A1-785BC6D51082}" ShortID="791931843">
