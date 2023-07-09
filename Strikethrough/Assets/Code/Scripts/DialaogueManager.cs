@@ -10,12 +10,15 @@ public class DialaogueManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI textMesh;
     [SerializeField] KeyCode continueKey;
 
+    [SerializeField] GameObject explodeFX;
+
     [SerializeField] AK.Wwise.Event myEvent = null;
 
     private List<string> dialogueList;
     private bool inUse;
 
     private int index;
+    private Transform fxSpawner;
 
     private void Start()
     {
@@ -36,6 +39,10 @@ public class DialaogueManager : MonoBehaviour
             if(index >= dialogueList.Count)
             {
                 TurnOff();
+
+                Instantiate(explodeFX, fxSpawner.position, explodeFX.transform.rotation);
+                Destroy(fxSpawner.gameObject);
+
                 myEvent.Post(this.gameObject);
             }
         }
@@ -45,7 +52,7 @@ public class DialaogueManager : MonoBehaviour
     /// Attempt to run a new dialogue 
     /// </summary>
     /// <param name="dialogue"></param>
-    public bool TryRunDialogue(List<string> dialogue)
+    public bool TryRunDialogue(List<string> dialogue, Transform _fxSpawner)
     {
         if (inUse)
             return false;
@@ -57,6 +64,7 @@ public class DialaogueManager : MonoBehaviour
         textBox.SetActive(true);
 
         player.CanMove = false;
+        fxSpawner = _fxSpawner;
 
         return true;
     }

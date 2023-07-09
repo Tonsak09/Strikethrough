@@ -16,6 +16,7 @@ public class Character : MonoBehaviour
     [SerializeField] DialaogueManager dialaogueManager;
     [SerializeField] List<string> dialogue;
 
+    [Header("Sound")]
     [SerializeField] AK.Wwise.Event InteractEvent = null;
 
     private float currentDisplay;
@@ -54,7 +55,7 @@ public class Character : MonoBehaviour
             else
             {
                 display.gameObject.SetActive(false);
-                over = dialaogueManager.TryRunDialogue(dialogue);
+                over = dialaogueManager.TryRunDialogue(dialogue, this.transform);
             }
         }
         

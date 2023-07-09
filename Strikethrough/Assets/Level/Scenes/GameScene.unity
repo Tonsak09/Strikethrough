@@ -897,7 +897,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 267853949}
-  m_LocalRotation: {x: 0.20442751, y: 0.0000000038693373, z: -8.080637e-10, w: 0.9788817}
+  m_LocalRotation: {x: 0.20442748, y: -0.000000025559096, z: 0.000000005337705, w: 0.9788817}
   m_LocalPosition: {x: 0, y: 4.43, z: -8.36}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2985,6 +2985,8 @@ MonoBehaviour:
   textBox: {fileID: 572975004}
   textMesh: {fileID: 1115855567}
   continueKey: 101
+  explodeFX: {fileID: 5425033367346790239, guid: dacd6a959d836ff46892575ec1f982b8,
+    type: 3}
   myEvent:
     idInternal: 0
     valueGuidInternal: 
@@ -4131,7 +4133,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1297894831}
-  m_LocalRotation: {x: 0.20442751, y: 0.0000000038693373, z: -8.080637e-10, w: 0.9788817}
+  m_LocalRotation: {x: 0.20442748, y: -0.000000025559096, z: 0.000000005337705, w: 0.9788817}
   m_LocalPosition: {x: 0, y: 4.43, z: -8.36}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6966,7 +6968,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1162366397, guid: bda6c01ba18521c4ba38018ecec68bdf, type: 3}
       propertyPath: speed
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1162366397, guid: bda6c01ba18521c4ba38018ecec68bdf, type: 3}
       propertyPath: player
@@ -6982,7 +6984,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1162366397, guid: bda6c01ba18521c4ba38018ecec68bdf, type: 3}
       propertyPath: detectRadius
-      value: 9
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1162366397, guid: bda6c01ba18521c4ba38018ecec68bdf, type: 3}
       propertyPath: idleCenter.x
