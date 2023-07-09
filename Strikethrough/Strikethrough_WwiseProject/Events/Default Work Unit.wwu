@@ -139,7 +139,7 @@
 										<Action Name="" ID="{75ECB312-36B7-4AB7-9800-9994BB7363C8}" ShortID="637475730">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Flashlight_Out_1" ID="{D255D72B-A1E9-47F4-BAFF-709094895785}" WorkUnitID="{40CD415B-5A02-45ED-8E94-12973DC945E9}"/>
+													<ObjectRef Name="Pen_Click" ID="{1B435FF9-196E-465A-A713-9C8CD3831766}" WorkUnitID="{40CD415B-5A02-45ED-8E94-12973DC945E9}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

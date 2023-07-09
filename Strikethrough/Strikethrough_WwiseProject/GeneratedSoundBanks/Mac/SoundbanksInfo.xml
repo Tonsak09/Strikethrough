@@ -28,7 +28,7 @@
 				<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="1746225310" Language="SFX" Hash="3594788914">
+		<SoundBank Id="1746225310" Language="SFX" Hash="1943157249">
 			<ObjectPath>\SoundBanks\Default Work Unit\Strikethrough</ObjectPath>
 			<ShortName>Strikethrough</ShortName>
 			<Path>Strikethrough.bnk</Path>
@@ -67,11 +67,11 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4044179397" Name="Play_Flashlight_Out" ObjectPath="\Events\Default Work Unit\SFX\Detective\Play_Flashlight_Out" MaxAttenuation="20." DurationType="OneShot" DurationMin="0.811997" DurationMax="0.811997">
+				<Event Id="4044179397" Name="Play_Flashlight_Out" ObjectPath="\Events\Default Work Unit\SFX\Detective\Play_Flashlight_Out" MaxAttenuation="20." DurationType="OneShot" DurationMin="0.136233" DurationMax="0.152916">
 					<IncludedMemoryFiles>
-						<File Id="1069208548" Language="SFX">
-							<ShortName>Sounds\Flashlight_Out_1.wav</ShortName>
-							<Path>SFX\Sounds\Flashlight_Out_1_835714D9.wem</Path>
+						<File Id="632126096" Language="SFX">
+							<ShortName>Sounds\Pen_Click_1.wav</ShortName>
+							<Path>SFX\Sounds\Pen_Click_1_835714D9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
