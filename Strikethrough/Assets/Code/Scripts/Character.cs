@@ -20,7 +20,7 @@ public class Character : MonoBehaviour
 
     private float currentDisplay;
     private bool inZone;
-    private bool inDialogue;
+    public bool inDialogue;
 
     private bool over;
 
