@@ -58,17 +58,39 @@ public class Detective : MonoBehaviour
             case LightState.active:
                 // Logic when light is active 
 
-                Collider[] colliders = Physics.OverlapBox(this.transform.position + dangerOffset, dangerHalfWidths, Quaternion.identity, playerMask);
+                Collider[] colliders = Physics.OverlapBox(this.transform.position + dangerOffset, dangerHalfWidths / 2.0f, Quaternion.identity, playerMask);
+
                 if(colliders.Length > 0)
                 {
-                    // Player in light
-                    timeInLight += Time.deltaTime;
+                    // Check the safe zones 
+                    for (int i = 0; i < safeZones.Count; i++)
+                    {
+                        Collider[] safeTests = Physics.OverlapBox(this.transform.position + safeZones[i].position, safeZones[i].halfWidths / 2.0f, Quaternion.identity, playerMask);
+
+                        if (safeTests.Length > 0)
+                        {
+                            // Within safe zone 
+                            timeInLight = Mathf.Max(timeInLight - Time.deltaTime, 0);
+                            break;
+                        }
+                        else
+                        {
+                            // Out of safe zone 
+                            timeInLight += Time.deltaTime;
+                        }
+                    }
+                }
+                else
+                {
+                    // Player out of light 
+                    timeInLight = Mathf.Max(timeInLight - Time.deltaTime, 0);
                 }
 
                 if(timeInLight > maxTimeInLight)
                 {
                     // Restart level 
                     caughtEvent.Post(this.gameObject);
+                    print("restart");
                 }
 
                 if(timer >= dangerActiveTime)
