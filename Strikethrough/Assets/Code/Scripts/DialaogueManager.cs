@@ -5,6 +5,7 @@ using TMPro;
 
 public class DialaogueManager : MonoBehaviour
 {
+    [SerializeField] PlayerLogic player;
     [SerializeField] GameObject textBox;
     [SerializeField] TextMeshProUGUI textMesh;
     [SerializeField] KeyCode continueKey;
@@ -54,6 +55,9 @@ public class DialaogueManager : MonoBehaviour
         index = 0;
 
         textBox.SetActive(true);
+
+        player.CanMove = false;
+
         return true;
     }
 
@@ -65,5 +69,7 @@ public class DialaogueManager : MonoBehaviour
 
         textBox.SetActive(false);
         textMesh.text = "";
+
+        player.CanMove = true;
     }
 }

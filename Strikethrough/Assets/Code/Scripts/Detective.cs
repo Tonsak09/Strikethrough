@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Detective : MonoBehaviour
 {
+    [SerializeField] RespawnManager respawnManager;
+
     [Header("Zones")]
     [SerializeField] Vector3 dangerOffset;
     [SerializeField] Vector3 dangerHalfWidths;
@@ -46,6 +48,8 @@ public class Detective : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        respawnManager = GameObject.FindObjectOfType<RespawnManager>();
+
         timer = 0;
         warningPlayed = false;
     }
@@ -97,7 +101,7 @@ public class Detective : MonoBehaviour
                 {
                     // Restart level 
                     caughtEvent.Post(this.gameObject);
-                    print("restart");
+                    respawnManager.Respawn();
                 }
 
                 if(timer >= dangerActiveTime)

@@ -17,18 +17,22 @@ public class PlayerLogic : MonoBehaviour
     [SerializeField] Texture2D walk;
     [SerializeField] Texture2D walkEmissive;
 
+    public bool CanMove { get; set; }
     private float holdSpeed;
     private Vector3 holdDir;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        CanMove = true;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (!CanMove)
+            return;
+
         Movement();
         if(holdSpeed > 0.001f)
         {

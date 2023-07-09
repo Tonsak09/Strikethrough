@@ -4,15 +4,31 @@ using UnityEngine;
 
 public class RespawnManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] Transform player;
+    [SerializeField] List<Vector3> respawnPoints;
+   
+    public void Respawn()
     {
-        
+        Vector3 spawnPoint = respawnPoints[0];
+        for (int i = 1; i < respawnPoints.Count; i++)
+        {
+            // Bad to do but I am so tired 
+            if (Vector3.Distance(respawnPoints[i], player.position) < Vector3.Distance(spawnPoint, player.position))
+            {
+                spawnPoint = respawnPoints[i];
+            }
+        }
+        print(spawnPoint);
+        player.GetComponent<CharacterController>().enabled = false;
+        player.position = spawnPoint;
+        player.GetComponent<CharacterController>().enabled = true;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDrawGizmosSelected()
     {
-        
+        for (int i = 0; i < respawnPoints.Count; i++)
+        {
+            Gizmos.DrawSphere(respawnPoints[i], 0.1f);
+        }
     }
 }
