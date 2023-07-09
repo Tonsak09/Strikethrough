@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	267911644	Play_Dialogue			\Default Work Unit\SFX\Dialogue\Play_Dialogue	
 	288905442	Stop_Dialogue			\Default Work Unit\SFX\Dialogue\Stop_Dialogue	
 	435770000	Stop_Amb			\Default Work Unit\Amb\Stop_Amb	
+	639442169	Play_Crowd			\Default Work Unit\Amb\Play_Crowd	
 	1817599639	Play_Flashlight_Shake			\Default Work Unit\SFX\Detective\Play_Flashlight_Shake	
 	2837384057	Stop_Music			\Default Work Unit\Music\Stop_Music	
 	2932040671	Play_Music			\Default Work Unit\Music\Play_Music	
@@ -24,10 +25,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	686171758	Paper_Crumple	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Windows\SFX\Sounds\Paper_Crumple_1_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\City\Interactables\Dialogue\Dialogue\Paper_Crumple		11563
 	703741986	Music_City_P1	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Windows\SFX\Music\Music_City_P1_179463A7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music System\City Music\Part 1\Music_City_P1		1372636
 	823715951	Flashlight_Shake_1	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Windows\SFX\Sounds\Flashlight_Shake_1_18461635.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\City\Detective\Flashlight_Shake_1		14288
+	826086542	Crowd_Whispers	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Windows\SFX\Amb\Crowd_Whispers_1_6743F629.wem		\Actor-Mixer Hierarchy\Default Work Unit\Amb\Ambiences\Crowd_Whispers		459776
 	878435454	Pencil Writing	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Windows\SFX\Sounds\Pencil_Writing_1_179463A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\City\Interactables\Dialogue\Dialogue\Pencil Writing		187379
 	974325654	Music_City_P2	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Windows\SFX\Music\Music_City_P2_179463A7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music System\City Music\Part 2\Music_City_P2		1360139
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
 	308889657	SFX_City_Amb	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Windows\SFX\Amb\SFX_City_Amb_1C5147B7.wem	308889657.wem	\Actor-Mixer Hierarchy\Default Work Unit\Amb\Ambiences\City Amb\SFX_City_Amb	
-	1008457641	Flashlight_Damage	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Windows\SFX\Sounds\Damage_Light_1_179463A7.wem	1008457641.wem	\Actor-Mixer Hierarchy\Default Work Unit\SFX\City\Detective\Flashlight_Damage	
+	1008457641	Light_Damage	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Windows\SFX\Sounds\Damage_Light_1_179463A7.wem	1008457641.wem	\Actor-Mixer Hierarchy\Default Work Unit\Amb\Ambiences\Light_Damage	
 
