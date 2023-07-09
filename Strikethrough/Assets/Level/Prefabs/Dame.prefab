@@ -200,7 +200,7 @@ MonoBehaviour:
   dialogue:
   - It's been a long time
   - Here to get rid of old mistakes?
-  myEvent:
+  InteractEvent:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 2a72779f8f18d8544ab717ec9fd2dd9d,
