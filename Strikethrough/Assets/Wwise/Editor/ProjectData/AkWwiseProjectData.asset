@@ -275,7 +275,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: a2a65258d8f34344bbbbef001d0225c8
       Path: Events\Default Work Unit\Amb\Play_Crowd
-      maxAttenuation: 10
+      maxAttenuation: 15
       maxDuration: -1
       minDuration: -1
     - name: Play_Dialogue
