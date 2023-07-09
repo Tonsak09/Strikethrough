@@ -16,7 +16,7 @@ public class Character : MonoBehaviour
     [SerializeField] DialaogueManager dialaogueManager;
     [SerializeField] List<string> dialogue;
 
-    [SerializeField] AK.Wwise.Event myEvent = null;
+    [SerializeField] AK.Wwise.Event InteractEvent = null;
 
     private float currentDisplay;
     private bool inZone;
@@ -48,7 +48,7 @@ public class Character : MonoBehaviour
                 if (Input.GetKeyDown(interactKey) && inZone)
                 {
                     inDialogue = true;
-                    myEvent.Post(this.gameObject);
+                    InteractEvent.Post(this.gameObject);
                 }
             }
             else
