@@ -13,6 +13,7 @@ public class DialaogueManager : MonoBehaviour
     [SerializeField] GameObject explodeFX;
 
     [SerializeField] AK.Wwise.Event myEvent = null;
+    [SerializeField] AK.Wwise.Event destoryCharacterEvent = null;
 
     private List<string> dialogueList;
     private bool inUse;
@@ -42,6 +43,7 @@ public class DialaogueManager : MonoBehaviour
 
                 Instantiate(explodeFX, fxSpawner.position, explodeFX.transform.rotation);
                 Destroy(fxSpawner.gameObject);
+                destoryCharacterEvent.Post(this.gameObject);
 
                 myEvent.Post(this.gameObject);
             }

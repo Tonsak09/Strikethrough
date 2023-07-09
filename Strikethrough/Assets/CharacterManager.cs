@@ -21,6 +21,9 @@ public class CharacterManager : MonoBehaviour
             Application.Quit();
         }
 
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
         bool over = true;
         for (int i = 0; i < characters.Count; i++)
         {
