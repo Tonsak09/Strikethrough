@@ -31,5 +31,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
 	308889657	SFX_City_Amb	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Mac\SFX\Amb\SFX_City_Amb_1C5147B7.wem	308889657.wem	\Actor-Mixer Hierarchy\Default Work Unit\Amb\Ambiences\City Amb\SFX_City_Amb	
-	1008457641	Light_Damage	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Mac\SFX\Sounds\Damage_Light_1_179463A7.wem	1008457641.wem	\Actor-Mixer Hierarchy\Default Work Unit\Amb\Ambiences\Light_Damage	
+	1008457641	Flashlight_Damage	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Mac\SFX\Sounds\Damage_Light_1_179463A7.wem	1008457641.wem	\Actor-Mixer Hierarchy\Default Work Unit\SFX\City\Detective\Flashlight_Damage	
 

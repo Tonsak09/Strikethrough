@@ -28,7 +28,7 @@
 				<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="1746225310" Language="SFX" Hash="2095685505">
+		<SoundBank Id="1746225310" Language="SFX" Hash="1297475350">
 			<ObjectPath>\SoundBanks\Default Work Unit\Strikethrough</ObjectPath>
 			<ShortName>Strikethrough</ShortName>
 			<Path>Strikethrough.bnk</Path>
