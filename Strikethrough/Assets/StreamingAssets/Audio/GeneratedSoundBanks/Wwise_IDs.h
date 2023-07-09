@@ -15,10 +15,11 @@ namespace AK
     {
         static const AkUniqueID PLAY_AMB = 2959533290U;
         static const AkUniqueID PLAY_DIALOGUE = 267911644U;
+        static const AkUniqueID PLAY_FLASHLIGHT_ON = 3471928368U;
         static const AkUniqueID PLAY_FLASHLIGHT_OUT = 4044179397U;
+        static const AkUniqueID PLAY_FLASHLIGHT_SHAKE = 1817599639U;
         static const AkUniqueID PLAY_LIGHT_DAMAGE = 143288634U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
-        static const AkUniqueID PLAY_PEN_CLICK = 2938762846U;
         static const AkUniqueID STOP_AMB = 435770000U;
         static const AkUniqueID STOP_DIALOGUE = 288905442U;
         static const AkUniqueID STOP_MUSIC = 2837384057U;

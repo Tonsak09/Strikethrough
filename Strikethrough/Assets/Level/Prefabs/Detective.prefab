@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8769658995332250383}
   - component: {fileID: 8769658995332250376}
   - component: {fileID: 1558919614}
+  - component: {fileID: 7654559258061743436}
   m_Layer: 8
   m_Name: Detective
   m_TagString: Untagged
@@ -173,23 +174,49 @@ MonoBehaviour:
   lightActivateEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 472adca5dcfc442449ba3261221d4320,
+      type: 2}
   lightDeactivateEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 599bea9e7ebc49e43894e8c72777845e,
+      type: 2}
   lightAboutTurnOnEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: cfe258d274bf0c742bae34a2ce185180,
+      type: 2}
   lightAboutTurnOffEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: cfe258d274bf0c742bae34a2ce185180,
+      type: 2}
   caughtEvent:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
+--- !u!114 &7654559258061743436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8769658995332250377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f682a46b8892e71418891ce9b5e2ad63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &8769658995408534172
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,9 +468,6 @@ GameObject:
   - component: {fileID: 8769658996310280894}
   - component: {fileID: 8769658996310280895}
   - component: {fileID: 8769658996310280888}
-  - component: {fileID: 8769658996310280889}
-  - component: {fileID: 8769658996310280890}
-  - component: {fileID: 8769658996310280891}
   m_Layer: 0
   m_Name: SmallerCone
   m_TagString: Untagged
@@ -528,74 +552,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf007b8bf8e76394998d3fbec8b5805f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!54 &8769658996310280889
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8769658996310280885}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &8769658996310280890
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8769658996310280885}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81a63f2e7aba83941a33a0a1034bca7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: f2e3f77670a6abd479ee3bf75265d762,
-      type: 2}
-  useCallbacks: 0
-  Callbacks: []
-  playingId: 0
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
---- !u!114 &8769658996310280891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8769658996310280885}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f682a46b8892e71418891ce9b5e2ad63, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_listeners:
-    initialListenerList: []
-    useDefaultListeners: 1
-  isEnvironmentAware: 1
-  isStaticObject: 0
-  m_positionOffsetData:
-    KeepMe: 1
-    positionOffset: {x: 0, y: 0, z: 0.89}
-  m_posOffsetData: {fileID: 0}
-  listenerMask: 1
 --- !u!1 &8769658996683036066
 GameObject:
   m_ObjectHideFlags: 0
