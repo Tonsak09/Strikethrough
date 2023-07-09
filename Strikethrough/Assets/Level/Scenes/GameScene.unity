@@ -4625,14 +4625,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1558919614, guid: 499b81dd01bb37b4f95d270202e284b3, type: 3}
-      propertyPath: dangerAlmostOnTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1558919614, guid: 499b81dd01bb37b4f95d270202e284b3, type: 3}
-      propertyPath: dangerUnactiveTime
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 8769658995332250377, guid: 499b81dd01bb37b4f95d270202e284b3,
         type: 3}
       propertyPath: m_Name
