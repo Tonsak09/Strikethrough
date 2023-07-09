@@ -26,7 +26,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	823715951	Flashlight_Shake_1	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Windows\SFX\Sounds\Flashlight_Shake_1_18461635.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\City\Detective\Flashlight_Shake_1		14288
 	878435454	Pencil Writing	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Windows\SFX\Sounds\Pencil_Writing_1_179463A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\City\Interactables\Dialogue\Dialogue\Pencil Writing		187379
 	974325654	Music_City_P2	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Windows\SFX\Music\Music_City_P2_179463A7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music System\City Music\Part 2\Music_City_P2		1360139
-	1069208548	Flashlight_Out_1	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Windows\SFX\Sounds\Flashlight_Out_1_835714D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\City\Detective\Flashlight_Out_1		13140
 
 Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
 	308889657	SFX_City_Amb	D:\GitHub_Repositories\Strikethrough\Strikethrough\Strikethrough_WwiseProject\.cache\Windows\SFX\Amb\SFX_City_Amb_1C5147B7.wem	308889657.wem	\Actor-Mixer Hierarchy\Default Work Unit\Amb\Ambiences\City Amb\SFX_City_Amb	
