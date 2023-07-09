@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8769658995332250382}
   - component: {fileID: 8769658995332250383}
   - component: {fileID: 8769658995332250376}
+  - component: {fileID: 1558919614}
   m_Layer: 8
   m_Name: Detective
   m_TagString: Untagged
@@ -137,6 +138,58 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 2
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &1558919614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8769658995332250377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a371febf5878f82408b0a762c17f82a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dangerOffset: {x: -0.63, y: 1, z: -7.23}
+  dangerHalfWidths: {x: 4.77, y: 2, z: 14.76}
+  safeZones:
+  - position: {x: -0.63, y: 1, z: 0.14}
+    halfWidths: {x: 4.9, y: 2, z: 1.52}
+  - position: {x: 1.3, y: 1, z: -6.14}
+    halfWidths: {x: 1.41, y: 2, z: 1.54}
+  - position: {x: -2.17, y: 1, z: -12.01}
+    halfWidths: {x: 1.41, y: 2, z: 5.6}
+  - position: {x: 1.3, y: 1, z: -13.68}
+    halfWidths: {x: 1.41, y: 2, z: 2.16}
+  lightObj: {fileID: 8769658996142942983}
+  playerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  dangerActiveTime: 3
+  dangerAlmostOutTime: 2.5
+  dangerUnactiveTime: 2
+  dangerAlmostOnTime: 1
+  maxTimeInLight: 0.1
+  lightActivateEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  lightDeactivateEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  lightAboutTurnOnEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  lightAboutTurnOffEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  caughtEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &8769658995408534172
 GameObject:
   m_ObjectHideFlags: 0
