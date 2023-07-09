@@ -62,6 +62,8 @@ public class Detective : MonoBehaviour
 
                 if(colliders.Length > 0)
                 {
+                    bool isSafe = false;
+
                     // Check the safe zones 
                     for (int i = 0; i < safeZones.Count; i++)
                     {
@@ -69,15 +71,20 @@ public class Detective : MonoBehaviour
 
                         if (safeTests.Length > 0)
                         {
-                            // Within safe zone 
-                            timeInLight = Mathf.Max(timeInLight - Time.deltaTime, 0);
+                            isSafe = true;
                             break;
                         }
-                        else
-                        {
-                            // Out of safe zone 
-                            timeInLight += Time.deltaTime;
-                        }
+                    }
+
+                    if (isSafe)
+                    {
+                        // Within a safe zone 
+                        timeInLight = Mathf.Max(timeInLight - Time.deltaTime, 0);
+                    }
+                    else
+                    {
+                        // Out of safe zone
+                        timeInLight += Time.deltaTime;
                     }
                 }
                 else
