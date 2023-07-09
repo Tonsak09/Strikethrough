@@ -28,7 +28,7 @@
 				<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="1746225310" Language="SFX" Hash="3763955282">
+		<SoundBank Id="1746225310" Language="SFX" Hash="3594788914">
 			<ObjectPath>\SoundBanks\Default Work Unit\Strikethrough</ObjectPath>
 			<ShortName>Strikethrough</ShortName>
 			<Path>Strikethrough.bnk</Path>
@@ -53,7 +53,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3471928368" Name="Play_Flashlight_On" ObjectPath="\Events\Default Work Unit\SFX\Detective\Play_Flashlight_On" MaxAttenuation="15." DurationType="Infinite">
+				<Event Id="3471928368" Name="Play_Flashlight_On" ObjectPath="\Events\Default Work Unit\SFX\Detective\Play_Flashlight_On" MaxAttenuation="20." DurationType="Infinite">
 					<ReferencedStreamedFiles>
 						<File Id="1008457641" Language="SFX">
 							<ShortName>Sounds\Damage_Light_1.wav</ShortName>
@@ -67,7 +67,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4044179397" Name="Play_Flashlight_Out" ObjectPath="\Events\Default Work Unit\SFX\Detective\Play_Flashlight_Out" MaxAttenuation="15." DurationType="OneShot" DurationMin="0.811997" DurationMax="0.811997">
+				<Event Id="4044179397" Name="Play_Flashlight_Out" ObjectPath="\Events\Default Work Unit\SFX\Detective\Play_Flashlight_Out" MaxAttenuation="20." DurationType="OneShot" DurationMin="0.811997" DurationMax="0.811997">
 					<IncludedMemoryFiles>
 						<File Id="1069208548" Language="SFX">
 							<ShortName>Sounds\Flashlight_Out_1.wav</ShortName>
@@ -75,7 +75,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1817599639" Name="Play_Flashlight_Shake" ObjectPath="\Events\Default Work Unit\SFX\Detective\Play_Flashlight_Shake" MaxAttenuation="15." DurationType="OneShot" DurationMin="0.731141" DurationMax="0.731141">
+				<Event Id="1817599639" Name="Play_Flashlight_Shake" ObjectPath="\Events\Default Work Unit\SFX\Detective\Play_Flashlight_Shake" MaxAttenuation="20." DurationType="OneShot" DurationMin="0.731141" DurationMax="0.731141">
 					<IncludedMemoryFiles>
 						<File Id="823715951" Language="SFX">
 							<ShortName>Sounds\Flashlight_Shake_1.wav</ShortName>
